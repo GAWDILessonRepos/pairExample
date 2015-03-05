@@ -1,4 +1,4 @@
-class AlbumsController < ApplicationController
+class SongsController < ApplicationController
   def index
     if params[:album_id]
       @songs = Song.where(album: params[:album_id])
