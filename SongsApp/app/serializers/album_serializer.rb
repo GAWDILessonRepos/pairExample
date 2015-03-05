@@ -1,4 +1,3 @@
-require 'pry-byebug'
 class AlbumSerializer < ActiveModel::Serializer
   attributes :id, :name, :year, :created_at
 
